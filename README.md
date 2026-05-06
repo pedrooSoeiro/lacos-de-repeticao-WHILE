@@ -42,3 +42,6 @@ Durante o desenvolvimento destes exercícios, foram explorados:
 * Prevenção de **loops infinitos**.
 * Diferença entre operadores de atribuição (`=`) e comparação (`===`).
 * Importância da ordem de atualização de variáveis dentro do laço.
+
+* <img width="344" height="375" alt="SquirtleDealWithItGIF" src="https://github.com/user-attachments/assets/e7167fe1-b77e-4bc4-b939-16f0b9087ec5" />
+
