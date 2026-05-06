@@ -7,9 +7,9 @@
 let numero = Number(prompt("Me mande o valor da sua primeira compra"))
 let soma = 0
 
-    while(numero > 0) {
-        soma+=numero
-        numero = Number(prompt("Comprou mais?! Me fale o valor também.\nSe não comprou mais nada só digitar 0"));
+while (numero > 0) {
+    soma += numero
+    numero = Number(prompt("Comprou mais?! Me fale o valor também.\nSe não comprou mais nada só digitar 0"));
 
 }
 alert("Todas suas compras deram " + soma);

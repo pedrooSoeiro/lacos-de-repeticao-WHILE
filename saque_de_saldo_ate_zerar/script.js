@@ -13,7 +13,7 @@ while (saldo > 0) {
     if (valor <= saldo) {
         saldo = saldo - valor;
         alert("Realizei seu saque aqui! Sobrou de saldo restante: R$" + saldo);
-        
+
         if (saldo <= 0) {
             break;
         }

@@ -4,15 +4,19 @@
 //4) O programa pede o primeiro nome e o sobrenome separadamente. Se o usuário deixar um deles em branco, o programa pede novamente até ser preenchido corretamente.
 //5) Um usuário deseja sacar um valor. O programa deve verificar se há saldo suficiente (simule um valor inicial armazenando-o em uma variável). Se não houver, deve pedir um novo valor até o saque ser possível e encerrar quando o saldo for 0 ou negativo.
 
-let numero = Number(prompt("Digite notas de 0 a 10, se quiser a média de todas \n                       digite um negativo"))
-let soma = 0
+let nota = Number(prompt("Digite a primeira nota, ou \n                       digite um negativo para sair"))
+let soma = 0;
 let contador = 0
 
-    while(numero > 0) {
-numero = Number(prompt("Você digitou um positivo, me mande mais um:"));
-
-soma+=numero
-contador++
+while (nota > 0) {
+    nota = Number(prompt("Digite notas de 0 a 10, se quiser a média de todas \n                       digite um negativo"))
+    if (nota < 0){
+        let media = soma / contador
+        alert("A média dos números é " + media);
+        break
+    }
+    soma += nota
+    contador++
 }
-let media = soma/contador
+let media = soma / contador
 alert("A média dos números é " + media);

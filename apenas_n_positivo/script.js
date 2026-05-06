@@ -7,8 +7,8 @@
 let numero = Number(prompt("Digite um número positivo, não digite um negativo em"))
 let mensagem = ""
 
-    while(numero < 0) {
-numero = Number(prompt("Erro! Você digitou um negativo. Digite um número POSITIVO:"));
+while (numero < 0) {
+    numero = Number(prompt("Erro! Você digitou um negativo. Digite um número POSITIVO:"));
 
 }
 alert("Você digitou " + numero + " finalmente um positivo");

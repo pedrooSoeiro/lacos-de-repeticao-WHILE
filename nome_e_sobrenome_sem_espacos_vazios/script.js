@@ -8,9 +8,9 @@ let nome = prompt("Digite seu nome para mim te registrar no sistema, por favor")
 let sobrenome = prompt("Agora digite seu sobrenome.\nNão deixe sem preencher em!")
 let mensagem = ""
 
-    while(nome === "" || sobrenome === "" ) {
-nome = prompt("Erro! Você não digitou o seu nome ou seu sobrenome.\nDIGITE DE NOVO SEU NOME:");
-sobrenome = prompt("Erro! Você não digitou o seu nome ou seu sobrenome.\nDIGITE DE NOVO SEU SOBRENOME:");
+while (nome === "" || sobrenome === "") {
+    nome = prompt("Erro! Você não digitou o seu nome ou seu sobrenome.\nDIGITE DE NOVO SEU NOME:");
+    sobrenome = prompt("Erro! Você não digitou o seu nome ou seu sobrenome.\nDIGITE DE NOVO SEU SOBRENOME:");
 
 }
 alert("Você digitou " + nome + " " + sobrenome);
