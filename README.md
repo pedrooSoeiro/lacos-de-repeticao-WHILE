@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=10BCF7&height=180&section=header&text=Pedro+Antônio+Soeiro&fontSize=25&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+
 # Exercícios de Estruturas de Repetição (While) - JavaScript
 
 Este repositório contém uma série de exercícios práticos desenvolvidos para exercitar a lógica de programação utilizando o laço de repetição `while` em JavaScript.
@@ -43,5 +45,6 @@ Durante o desenvolvimento destes exercícios, foram explorados:
 * Diferença entre operadores de atribuição (`=`) e comparação (`===`).
 * Importância da ordem de atualização de variáveis dentro do laço.
 
-* <img width="344" height="375" alt="SquirtleDealWithItGIF" src="https://github.com/user-attachments/assets/e7167fe1-b77e-4bc4-b939-16f0b9087ec5" />
+<img width="344" height="375" alt="SquirtleDealWithItGIF" src="https://github.com/user-attachments/assets/e7167fe1-b77e-4bc4-b939-16f0b9087ec5" />
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=10BCF7&height=150&section=footer"/>
 
